@@ -1,0 +1,241 @@
+.box-shadow {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  width: 98%;
+  height: 73px;
+  margin: 10px;
+  /* margin-right: 19px; */
+  margin-top: 8px;
+  color: red;
+  background: white;
+}
+.buttonDiv {
+  margin-top: 15px;
+}
+.headerSpan {
+  border: 2px solid #e9e5e5;
+  background: gainsboro;
+  height: 47px;
+  border-radius: 25px;
+  margin-top: 13px;
+  margin-right: 28px;
+}
+
+.headerText {
+  margin-top: 7px;
+  display: flex;
+  justify-content: center;
+}
+.dropdownList {
+  margin-top: 21px;
+}
+.custom-selectbox {
+  // background: #fff;
+  label {
+    transform: translate(1px, 1px) scale(0.75) !important;
+    color: rgba(0, 0, 0, 0.54) !important;
+    font-weight: 600;
+  }
+  div {
+    div {
+      background: #fff;
+      border-radius: 5px;
+      padding: 3px 5px;
+    }
+  }
+}
+.custom-textField {
+  width: 100%;
+  input {
+    padding: 9.5px 12px;
+    font-size: 14px;
+    width: 100%;
+    background: #fff;
+  }
+  label {
+    font-size: 12px !important;
+    transform: translate(0, -17px) scale(1);
+    font-weight: 600;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.54) !important;
+  }
+}
+.searchBox {
+  float: right;
+  width: 30%;
+  margin-right: -71px !important;
+}
+
+.negMargin {
+  margin-right: -71px;
+}
+.negLeftMargin {
+  margin-left: -76px;
+  overflow-x: hidden;
+}
+.marTop {
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  table {
+    thead {
+      background-color: rgba(73, 95, 195, 0.38);
+      tr {
+        height: 40px;
+      }
+      tr th {
+        text-align: left;
+        color: #0522a5;
+      }
+    }
+    tbody {
+      tr {
+        height: 37px;
+      }
+      td {
+        background-color: #fff;
+        text-align: left;
+        height: 38px;
+      }
+    }
+  }
+}
+.containerMar {
+  margin-top: 124px;
+}
+
+.containerClass {
+  margin-top: -450px;
+  margin-left: -67px;
+}
+
+//extras
+.marTop.custom-textField {
+  div:first-child {
+    width: 100% !important;
+  }
+  &.align-bottom {
+    margin-top: 21px;
+  }
+}
+
+.custom-pdfview {
+  width: 100%;
+  height: 100%;
+}
+.cardHeader {
+  background: #ffffff;
+  height: 46px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  span {
+    color: #000000;
+    opacity: 0.6;
+    font-size: 18px;
+  }
+}
+.MuiCardActions-spacing {
+  width: 100%;
+  display: block !important;
+  padding: 14px 8px !important;
+  border-top: 1px solid rgba(204, 204, 204, 0.55);
+  button {
+    padding: 6px;
+  }
+}
+.mainDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tablediv {
+  width: 30%;
+  margin: 20px !important;
+  table {
+    thead {
+      background-color: rgba(73, 95, 195, 0.38);
+      tr {
+        height: 40px;
+      }
+      tr th {
+        text-align: left;
+        color: #0522a5;
+      }
+    }
+    tbody {
+      tr {
+        height: 37px;
+      }
+      td {
+        background-color: #fff;
+        text-align: left;
+        height: 38px;
+      }
+    }
+  }
+}
+.iconBut {
+  background-color: rgba(34, 71, 117, 0.25) !important;
+  &:hover {
+    background-color: #214775 !important;
+    svg {
+      color: #ffffff;
+    }
+  }
+  svg {
+    color: #224775;
+    width: 20px;
+    height: 20px;
+  }
+}
+.iconButLast {
+  background-color: rgba(34, 71, 117, 0.25) !important;
+  padding: 5px !important;
+  float: right;
+  &:hover {
+    background-color: #214775 !important;
+    svg {
+      color: #ffffff;
+    }
+  }
+  svg {
+    color: #224775;
+    width: 20px;
+    height: 20px;
+  }
+}
+.imagePosition {
+  width: 128px !important;
+  margin: auto;
+  text-align: center;
+  display: block !important;
+  font-size: 8em !important;
+  &.green {
+    color: #356e35;
+  }
+  &.red {
+    color: #a90329;
+  }
+  &.yellow {
+    color: #ffd700;
+  }
+}
+.jobs-icon-action {
+  margin: 0 5px;
+  > .green {
+    color: #356e35;
+  }
+  > .red {
+    color: #a90329;
+  }
+}
+
+#dialog-error-logs-description,
+#dialog-source-systems-description {
+  padding: 5px 0;
+  margin-bottom: 0px;
+}
+
+#dialog-error-logs-title,
+#dialog-source-systems-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

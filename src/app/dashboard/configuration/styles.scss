@@ -1,0 +1,84 @@
+.stepper-class {
+  position: fixed !important;
+  width: 45%;
+  z-index: 2222;
+  top: 10px !important;
+  height: 30px !important;
+  right: 290px;
+  float: right;
+}
+.mainDiv{
+  display:flex;
+  flex-wrap: wrap
+  }
+.tablediv{
+  width:30%;
+  margin: 20px !important;
+  table {
+      thead {
+          background-color:white;
+          tr {
+              height: 40px;
+          }
+          tr th{
+              text-align: left;
+              color: #0522a5;
+          }
+      }
+      tbody {
+          tr {
+              height: 37px;
+          }
+          td{
+              background-color: #fff;
+              text-align: left;
+              height: 38px;
+          }
+      }
+  }
+  
+  }
+.MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+  margin-top: 0px !important;
+}
+.width-100per{
+  width: 100%
+}
+.MuiStepper-root {
+  padding: 0px !important;
+  height: 40px !important;
+}
+
+.button-div {
+  padding: 4px 0px !important;
+  text-transform: none !important;
+  color: #ffffff !important;
+  background: #303f9f !important;
+  margin-right: 20px !important;
+}
+
+.disable-button {
+  background: #e5e5e5 !important;
+  color: #000000 !important;
+}
+
+.landing-page-next {
+  z-index: 2222 !important;
+  top: 0 !important;
+}
+
+.pad-rght {
+  padding-right: 8px !important;
+}
+
+.pad-lft {
+  padding-left: 8px !important;
+}
+
+.mareana-logo {
+  position: fixed;
+  top: 3px !important;
+  right: 3px !important;
+  padding: 0 10px !important;
+  background: #061837 !important;
+}

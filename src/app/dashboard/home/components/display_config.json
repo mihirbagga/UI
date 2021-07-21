@@ -1,0 +1,495 @@
+{
+  "material": [
+    {
+      "displayComponent": "Batch Details",
+      "webserviceName": "https://mdh-service.mareana.com/mdh-getEntityDetail-service",
+      "webserviceArgs": {
+        "entityId": "[nodeId]",
+        "entityName": "Batch"
+      },
+      "gridConfig": {
+        "columnWidth": "20%",
+        "columnsStyle": [
+          {
+            
+          }
+        ],
+        "colHeaders": [
+          {
+            "id": 0,
+            "fieldName": "mat_no",
+            "displayName": "Component Material",
+            "seqOrder": 0,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 0
+          },
+          {
+            "id": 1,
+            "fieldName": "batch_no",
+            "displayName": "Component Batch",
+            "seqOrder": 1,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 1
+          },
+          {
+            "id": 2,
+            "fieldName": "mat_desc",
+            "displayName": "Material Description",
+            "seqOrder": 2,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 2
+          },
+          {
+            "id": 3,
+            "fieldName": "node_id",
+            "displayName": "Node ID",
+            "seqOrder": 3,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 3
+          },
+          {
+            "id": 4,
+            "fieldName": "uom",
+            "displayName": "UoM",
+            "seqOrder": 4,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 4
+          }
+        ],
+        "titleConfig": {
+          "show": true,
+          "name": "Batch Details",
+          "style": {
+            "fontSize": "20px",
+            "fontWeight": "600"
+          }
+        }
+      }
+    },
+    {
+      "displayComponent": "Input Process Order",
+      "webserviceName": "https://mdh-service.mareana.com/mdh-getMetaEntities-service",
+      "webserviceArgs": {
+        "entityId": "[nodeId]",
+        "entityName": "Batch",
+        "relEntityName": "ProcessOrder",
+        "relationName": "Batch_to_ProcessOrder_Input"
+      },
+      "gridConfig": {
+        "columnWidth": "33%",
+        "columnsStyle": [
+          {
+            
+          }
+        ],
+        "colHeaders": [
+          {
+            "id": 0,
+            "fieldName": "node_id",
+            "displayName": "Node ID",
+            "seqOrder": 0,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 0
+          },
+          {
+            "id": 1,
+            "fieldName": "qty",
+            "displayName": "Quantity",
+            "seqOrder": 1,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 1
+          },
+          {
+            "id": 2,
+            "fieldName": "unit",
+            "displayName": "Unit",
+            "seqOrder": 2,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 2
+          }
+        ],
+        "titleConfig": {
+          "show": true,
+          "name": "Input Process Order",
+          "style": {
+            "fontSize": "20px",
+            "fontWeight": "600"
+          }
+        }
+      }
+    },
+    {
+      "displayComponent": "Output Process Order",
+      "webserviceName": "https://mdh-service.mareana.com/mdh-getMetaEntities-service",
+      "webserviceArgs": {
+        "entityId": "[nodeId]",
+        "entityName": "Batch",
+        "relEntityName": "ProcessOrder",
+        "relationName": "Batch_to_ProcessOrder_Output"
+      },
+      "gridConfig": {
+        "columnWidth": "33%",
+        "columnsStyle": [
+          {
+           
+          }
+        ],
+        "colHeaders": [
+          {
+            "id": 0,
+            "fieldName": "node_id",
+            "displayName": "Node ID",
+            "seqOrder": 0,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 0
+          },
+          {
+            "id": 1,
+            "fieldName": "qty",
+            "displayName": "Quantity",
+            "seqOrder": 1,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 1
+          },
+          {
+            "id": 2,
+            "fieldName": "unit",
+            "displayName": "Unit",
+            "seqOrder": 2,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 2
+          }
+        ],
+        "titleConfig": {
+          "show": true,
+          "name": "Output Process Order",
+          "style": {
+            "fontSize": "20px",
+            "fontWeight": "600"
+          }
+        }
+      }
+    },
+    {
+      "displayComponent": "LIMS / MES",
+      "webserviceName": "https://mdh-service.mareana.com/mdh-getMetaEntities-service",
+      "webserviceArgs": {
+        "entityId": "[nodeId]",
+        "entityName": "Batch",
+        "relEntityName": "LimsTest",
+        "relationName": "Batch_to_LimsTest_Test"
+      },
+      "gridConfig": {
+        "columnWidth": "16%",
+        "columnsStyle": [
+          {
+            
+          }
+        ],
+        "colHeaders": [
+          {
+            "id": 0,
+            "fieldName": "node_id",
+            "displayName": "Node ID",
+            "seqOrder": 0,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 0
+          },
+          {
+            "id": 1,
+            "fieldName": "test_id",
+            "displayName": "Test ID",
+            "seqOrder": 1,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 1
+          },
+          {
+            "id": 2,
+            "fieldName": "test_name",
+            "displayName": "Test Name",
+            "seqOrder": 2,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 2
+          },
+          {
+            "id": 3,
+            "fieldName": "result",
+            "displayName": "Result",
+            "seqOrder": 3,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 3
+          },
+          {
+            "id": 4,
+            "fieldName": "unit",
+            "displayName": "Unit",
+            "seqOrder": 4,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 4
+          },
+          {
+            "id": 6,
+            "fieldName": "site",
+            "displayName": "Site",
+            "seqOrder": 6,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 6
+          }
+        ],
+        "titleConfig": {
+          "show": true,
+          "name": "LIMS / MES",
+          "style": {
+            "fontSize": "20px",
+            "fontWeight": "600"
+          }
+        }
+      }
+    }
+  ],
+  "processOrder": [
+    {
+      "displayComponent": "Process Order Details",
+      "webserviceName": "https://mdh-service.mareana.com/mdh-getEntityDetail-service",
+      "webserviceArgs": {
+        "entityId": "[poNo]",
+        "entityName": "ProcessOrder"
+      },
+      "gridConfig": {
+        "columnWidth": "50%",
+        "columnsStyle": [
+          {
+            
+          }
+        ],
+        "colHeaders": [
+          {
+            "id": 0,
+            "fieldName": "node_id",
+            "displayName": "Node ID",
+            "seqOrder": 0,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 0
+          },
+          {
+            "id": 1,
+            "fieldName": "po_no",
+            "displayName": "Po Number",
+            "seqOrder": 1,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 1
+          }
+        ],
+        "titleConfig": {
+          "show": true,
+          "name": "Process Order Details",
+          "style": {
+            "fontSize": "20px",
+            "fontWeight": "600"
+          }
+        }
+      }
+    },
+    {
+      "displayComponent": "Input Component",
+      "webserviceName": "https://mdh-service.mareana.com/mdh-getMetaEntities-service",
+      "webserviceArgs": {
+        "entityId": "[poNo]",
+        "entityName": "ProcessOrder",
+        "relEntityName": "Batch",
+        "relationName": "ProcessOrder_to_Batch_Input"
+      },
+      "gridConfig": {
+        "columnWidth": "14%",
+        "columnsStyle": [
+          {
+            
+          }
+        ],
+        "colHeaders": [
+          {
+            "id": 0,
+            "fieldName": "node_id",
+            "displayName": "Node ID",
+            "seqOrder": 0,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 0
+          },
+          {
+            "id": 1,
+            "fieldName": "mat_no",
+            "displayName": "Component Material",
+            "seqOrder": 1,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 1
+          },
+          {
+            "id": 2,
+            "fieldName": "batch_no",
+            "displayName": "Component Batch",
+            "seqOrder": 2,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 2
+          },
+          {
+            "id": 3,
+            "fieldName": "mat_desc",
+            "displayName": "Material Description",
+            "seqOrder": 3,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 3
+          },
+          {
+            "id": 4,
+            "fieldName": "unit",
+            "displayName": "Unit",
+            "seqOrder": 4,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 4
+          },
+          {
+            "id": 6,
+            "fieldName": "qty",
+            "displayName": "Quantity",
+            "seqOrder": 6,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 6
+          },
+          {
+            "id": 7,
+            "fieldName": "uom",
+            "displayName": "UoM",
+            "seqOrder": 7,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 7
+          }
+        ],
+        "titleConfig": {
+          "show": true,
+          "name": "Input Details",
+          "style": {
+            "fontSize": "20px",
+            "fontWeight": "600"
+          }
+        }
+      }
+    },
+    {
+      "displayComponent": "Output Component",
+      "webserviceName": "https://mdh-service.mareana.com/mdh-getMetaEntities-service",
+      "webserviceArgs": {
+        "entityId": "[poNo]",
+        "entityName": "ProcessOrder",
+        "relEntityName": "Batch",
+        "relationName": "ProcessOrder_to_Batch_Output"
+      },
+      "gridConfig": {
+        "columnWidth": "14%",
+        "columnsStyle": [
+          {
+           
+          }
+        ],
+        "colHeaders": [
+          {
+            "id": 0,
+            "fieldName": "node_id",
+            "displayName": "Node ID",
+            "seqOrder": 0,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 0
+          },
+          {
+            "id": 1,
+            "fieldName": "mat_no",
+            "displayName": "Component Material",
+            "seqOrder": 1,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 1
+          },
+          {
+            "id": 2,
+            "fieldName": "batch_no",
+            "displayName": "Component Batch",
+            "seqOrder": 2,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 2
+          },
+          {
+            "id": 3,
+            "fieldName": "mat_desc",
+            "displayName": "Material Description",
+            "seqOrder": 3,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 3
+          },
+          {
+            "id": 4,
+            "fieldName": "unit",
+            "displayName": "Unit",
+            "seqOrder": 4,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 4
+          },
+          {
+            "id": 5,
+            "fieldName": "qty",
+            "displayName": "Quantity",
+            "seqOrder": 5,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 5
+          },
+          {
+            "id": 6,
+            "fieldName": "uom",
+            "displayName": "UoM",
+            "seqOrder": 6,
+            "visible": true,
+            "sortType": "asc",
+            "sortOrder": 6
+          }
+        ],
+        "titleConfig": {
+          "show": true,
+          "name": "Output Component",
+          "style": {
+            "fontSize": "20px",
+            "fontWeight": "600"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "name": "mdhui",
+  "version": "0.1.0",
+  "private": true,
+  "resolutions": {
+    "jest": "25.1.0"
+  },
+  "dependencies": {
+    "@cypress/instrument-cra": "^1.1.1",
+    "@material-ui/core": "^4.9.11",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.50",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "bootstrap": "^4.4.1",
+    "classnames": "^2.2.6",
+    "connected-react-router": "^6.8.0",
+    "d3": "^3.5.17",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jquery": "^3.5.0",
+    "mr-tree": "^1.7.0",
+    "my-tree": "https://github.com/BinkitaTiwari/my-tree.git",
+    "nock": "^12.0.3",
+    "node-sass": "^4.14.0",
+    "plotly.js": "^1.45.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "react-plotly.js": "^2.4.0",
+    "react-redux": "^7.2.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.4.4",
+    "react-select": "^3.1.0",
+    "react-test-renderer": "^16.13.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "rl-react-generic-table": "^1.0.137",
+    "spectramicro-geneology": "^1.1.0",
+    "svg-pan-zoom": "^3.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts -r @cypress/instrument-cra start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --silent --coverage --verbose --watchAll=false",
+    "yarn:test": "yarn test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@cypress/code-coverage": "^3.8.1",
+    "bootstrap": "^4.1.3",
+    "chai": "^4.2.0",
+    "cypress": "^4.7.0",
+    "cypress-localstorage-commands": "^1.1.10",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jest-junit-reporter": "^1.1.0",
+    "jest-sonar-reporter": "^2.0.0",
+    "nock": "^10.0.6",
+    "nyc": "^15.1.0",
+    "prettier": "^1.14.2",
+    "react-app-rewire-provide-plugin": "^1.0.0",
+    "react-app-rewired": "^2.1.5",
+    "react-icons": "^3.5.0",
+    "sinon": "^7.3.2"
+  }
+}
