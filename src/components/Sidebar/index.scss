@@ -1,0 +1,21 @@
+.side-menu {
+    height: 100%;
+    .MuiListItem-button:hover{
+                background-color: rgba(48, 63, 159, 0.15);
+            }
+       
+}
+
+.side-footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    z-index: 100;
+    background: white;
+}
+
+a {
+    text-decoration: none !important;
+    color: #303f9f !important;
+}

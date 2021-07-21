@@ -1,0 +1,42 @@
+.bg-img{
+    background-image: url('../../../../assets/loginBg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+.logo{
+    height: 55px;
+    padding-top: 5px;
+}
+.body{
+    padding: 0px;
+}
+
+.page-login-header{
+    background-color: #061837 !important;
+    height: 60px;
+    position: relative;
+    top:0;
+}
+.page-login-header .logo{
+    float: right;
+    padding-right: 25px;
+}
+.brand-name{
+    float: left;
+    padding: 14px 0px 14px 25px;
+    color: white;
+    font-size: 22px;
+}
+.page-login{
+    padding:0px !important;
+}
+
+.login-card {
+    padding: 20px 30px !important;
+    left: 315px;
+    top: 50px;
+    height: auto;
+    border-radius: 15px !important;
+    position: relative;
+}
